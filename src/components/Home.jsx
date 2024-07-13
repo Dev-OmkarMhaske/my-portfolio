@@ -29,20 +29,32 @@ function Home() {
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
+                strings={[
+                  "Java developer",
+                  "Full stack developer",
+                  "Android developer",
+                ]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
               />
             </div>
             <br />
-            <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
-            </p>
+            <ul type="circle" className="text-sm md:text-md text-justify">
+              <li>
+                Over 2.8+ years of experience in developing software and
+                implementing applications utilizing the Spring Boot platform.
+                Experienced Java Developer with a strong proficiency in building
+                robust software solutions.
+              </li>
+              <li>
+                Excellent knowledge of software design and development
+                especially core java, Collection, JSP, Hibernate, JPA, Spring
+                Framework, Spring MVC, Spring Boot, Microservices, MySQL,
+                Firebase, MongoDB, Android(Java), React JS, Tailwind CSS, HTML,
+                CSS, JavaScript.
+              </li>
+            </ul>
             <br />
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
