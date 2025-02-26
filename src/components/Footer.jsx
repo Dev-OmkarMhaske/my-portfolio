@@ -18,12 +18,12 @@ function Footer() {
               <FaInstagram size={24} />
               <FaLinkedinIn size={24} />
             </div>
-            <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
+            {/* <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
               <p className="text-sm">
                 &copy; 2024 Your Company. All rights reserved.
               </p>
-              {/* <p className="text-sm">Supportive Partner ❤️ Ankush</p> */}
-            </div>
+              {<p className="text-sm">Supportive Partner ❤️ Ankush</p> }
+            </div> */}
           </div>
         </div>
       </footer>

@@ -9,6 +9,7 @@ import spring from "../../public/spring.png";
 import springBoot from "../../public/springBoot.jpg";
 import mongoDb from "../../public/mongodb.jpg";
 import mySQL from "../../public/mysql.png";
+import ReactIc from "../../public/react_png.png";
 
 function Experiance() {
   const cardItem = [
@@ -56,6 +57,11 @@ function Experiance() {
       id: 8,
       logo: mongoDb,
       name: "MongoDB",
+    },
+    {
+      id: 9,
+      logo: ReactIc,
+      name: "React Js",
     },
   ];
   return (

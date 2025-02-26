@@ -1,6 +1,5 @@
-import React from "react";
-
 import pic from "../../public/photo.avif";
+import myPic from "../../public/myImg.jpeg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -8,9 +7,10 @@ import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
 
 import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
+import { SiSpringboot } from "react-icons/si";
+import { BsAndroid2 } from "react-icons/bs";
 
 import { ReactTyped } from "react-typed";
 
@@ -42,10 +42,12 @@ function Home() {
             <br />
             <ul type="circle" className="text-sm md:text-md text-justify">
               <li>
-                Over 2.8+ years of experience in developing software and
-                implementing applications utilizing the Spring Boot platform.
-                Experienced Java Developer with a strong proficiency in building
-                robust software solutions.
+                Dynamic and detail-oriented Software Developer with with over 3
+                years of experience in designing, developing, and deploying
+                scalable applications using Core Java and Spring Boot.
+                Proficient in building high-performance backend solutions with
+                Spring MVC, Hibernate, JPA, and Microservices, and skilled in
+                Android, React.js, JavaScript, Tailwind CSS, HTML, and CSS.
               </li>
               <li>
                 Excellent knowledge of software design and development
@@ -67,7 +69,10 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/omkar-mhaske-java-developer/"
+                      target="_blank"
+                    >
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
@@ -87,16 +92,17 @@ function Home() {
                 <h1 className="font-bold text-center">Currently working on</h1>
                 <div className="flex space-x-5">
                   <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiExpress className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiSpringboot className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <FaNodeJs className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <BsAndroid2 className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                 </div>
               </div>
             </div>
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
-              src={pic}
+              src={myPic}
               className="rounded-full md:w-[450px] md:h-[450px]"
               alt=""
             />
